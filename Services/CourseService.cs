@@ -8,7 +8,6 @@ namespace DemoMVC.Services
         private SqlConnection GetConnection(string connectionString)
         {
             return new SqlConnection(connectionString);
-
         }
 
         public IEnumerable<Course> GetCourses(string connectionString)
